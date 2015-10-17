@@ -1,3 +1,4 @@
+A simple NGINX FastCGI proxy for PHP+WordPress.
 
 See https://codex.wordpress.org/Nginx for an explanation of configuration of Nginx.
 
