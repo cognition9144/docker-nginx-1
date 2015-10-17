@@ -1,0 +1,14 @@
+nginx:
+  image: nickbreen/nginx
+  ports:
+    - "8000:80"
+  links:
+    - php:fastcgi
+  volumes_from:
+    - php
+
+php:
+  image: php:fpm
+  volumes:
+    - .:/var/www/html
+
