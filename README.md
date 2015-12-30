@@ -30,4 +30,4 @@ Configure the document ```root``` in ```conf.d/default.conf``` (etc).
       ...
     }
 
-Also, this image assumes that the FastCGI process is on poer ```9000```.
+Also, this image assumes that the FastCGI process is on port ```9000```.
