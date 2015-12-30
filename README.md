@@ -23,7 +23,7 @@ Easiest thing to do is to link to the ```wordpress:fpm``` process.
 
     ...
 
-Configure the document ```root``` in ```conf.d/default.conf``` (etc).
+Configure the document ```root``` (etc) in ```conf.d/default.conf```.
 
     server {
       root /var/www/html;
